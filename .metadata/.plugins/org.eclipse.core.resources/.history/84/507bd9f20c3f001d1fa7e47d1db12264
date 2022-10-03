@@ -1,0 +1,28 @@
+package com.java.mapping.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.java.mapping.entity.Customer;
+import com.java.mapping.service.CustomerService;
+
+@RestController
+public class CustomerController {
+	
+	@Autowired
+	private CustomerService service;
+
+	@PostMapping("/insert")
+	public Customer addCustomerDetails(@RequestBody Customer customer) {
+		return service.savedata(customer);
+	}
+	
+	public List<Customer>fetchData();{
+		return List<Customer> service.fetchData();
+	}
+	
+}

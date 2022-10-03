@@ -1,0 +1,29 @@
+package com.springboot;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.springboot.entity.Product;
+import com.springboot.respository.ProductRepo;
+
+@SpringBootTest
+class JunitTestingApplicationTests {
+
+	@Autowired
+	ProductRepo prepo;
+	
+	@Test
+	public void testCase() {
+		Product p = new Product();
+		p.setId(1);
+		p.setName("mouse");
+		p.setDescription("this is hp company mouse");
+		p.setPrice(200);
+		prepo.save(p);
+		assertNotNull(prepo.findById(1).get());
+	}
+
+}

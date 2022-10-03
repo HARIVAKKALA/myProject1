@@ -1,0 +1,8 @@
+server.port=9090
+logging.level.com.springboot.controller=DEBUG
+
+#logging pattern for the console
+#it will print first logging level(info/warn/debug/..) our class name message
+logging.pattern.console= %date{ISO8601} %-5level %class{0}:%L - [%X] %msg%n
+
+logging.file.name=application.log

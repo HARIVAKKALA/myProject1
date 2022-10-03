@@ -1,0 +1,29 @@
+"2022-10-01 13:12:23 - Starting OnetomanyApplication using Java 17.0.2 on LAPTOP-NJGOD6B7 with PID 12468 (C:\Users\vakka\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\onetomany\target\classes started by vakka in C:\Users\vakka\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\onetomany)
+""2022-10-01 13:12:23 - No active profile set, falling back to 1 default profile: "default"
+""2022-10-01 13:12:23 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-10-01 13:12:23 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-10-01 13:12:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-10-01 13:12:24 - Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+""2022-10-01 13:12:24 - Tomcat initialized with port(s): 9091 (http)
+""2022-10-01 13:12:24 - Starting service [Tomcat]
+""2022-10-01 13:12:24 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-10-01 13:12:25 - Initializing Spring embedded WebApplicationContext
+""2022-10-01 13:12:25 - Root WebApplicationContext: initialization completed in 2496 ms
+""2022-10-01 13:12:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-10-01 13:12:26 - HHH000412: Hibernate ORM core version 5.6.10.Final
+""2022-10-01 13:12:26 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-10-01 13:12:26 - HikariPool-1 - Starting...
+""2022-10-01 13:12:26 - HikariPool-1 - Start completed.
+""2022-10-01 13:12:26 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+""2022-10-01 13:12:27 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-10-01 13:12:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-10-01 13:12:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-10-01 13:12:28 - LiveReload server is running on port 35729
+""2022-10-01 13:12:28 - Tomcat started on port(s): 9091 (http) with context path ''
+""2022-10-01 13:12:28 - Started OnetomanyApplication in 5.26 seconds (JVM running for 9.795)
+""2022-10-01 14:41:13 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m44s708ms177µs500ns).
+""2022-10-01 15:57:40 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m26s356ms243µs400ns).
+""2022-10-01 16:20:18 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m37s880ms890µs200ns).
+""2022-10-01 16:53:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m15s273ms518µs100ns).
+""2022-10-01 20:57:12 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h8s731ms506µs400ns).
+"
